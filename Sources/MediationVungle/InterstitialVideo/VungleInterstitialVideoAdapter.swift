@@ -11,12 +11,16 @@ import APSSPSDK
 
 
 final public class VungleInterstitialVideoAdapter: APSSPInterstitialVideoAdapterInappBiddingProtocol {
-    public var rootViewController: UIViewController?
+    public weak var rootViewController: UIViewController?
 
     private var rewardVideoAd: VungleMediationInterstitialVideoAd
     
-    public var delegate: APSSPInterstitialVideoAdapterDelegate?
+    public weak var delegate: APSSPInterstitialVideoAdapterDelegate?
     
+    deinit {
+        APLogger.debug("VungleInterstitialVideoAdapter deinit")
+    }
+
     public init(placementDic: [String: String], rootViewController: UIViewController?, info: [String : Any?]) {
         let placementId = placementDic[APSSPPlacementKey.vunglePlacementId.rawValue] ?? ""
         rewardVideoAd = VungleMediationInterstitialVideoAd(placementId: placementId)

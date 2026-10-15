@@ -11,7 +11,7 @@ import VungleAdsSDK
 
 final class VungleMediationInterstitialAd: NSObject {
     
-    var delegate: APSSPInterstitialAdapterDelegate?
+    weak var delegate: APSSPInterstitialAdapterDelegate?
     
     private var interstitialAd: VungleInterstitial?
     

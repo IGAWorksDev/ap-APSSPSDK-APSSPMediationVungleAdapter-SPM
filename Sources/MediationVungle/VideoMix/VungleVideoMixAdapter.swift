@@ -8,12 +8,16 @@ import APSSPSDK
 import VungleAdsSDK
 
 final public class VungleVideoMixAdapter: APSSPVideoMixAdAdapterInappBiddingProtocol {
-    public var rootViewController: UIViewController?
-    public var videoMixDelegate: APSSPVideoMixAdAdapterDelegate?
+    public weak var rootViewController: UIViewController?
+    public weak var videoMixDelegate: APSSPVideoMixAdAdapterDelegate?
     public var videoMixAdType: APSSPVideoMixAdType = .RewardVideo
     private var placementDic: [String: String] = [:]
     private var interstitialVideoAdapter: VungleInterstitialVideoAdapter?
     private var rewardVideoAdapter: VungleRewardVideoAdapter?
+
+    deinit {
+        APLogger.debug("VungleVideoMixAdapter deinit")
+    }
 
     public init(placementDic: [String: String], rootViewController: UIViewController?, info: [String: Any?]) {
         self.placementDic = placementDic; self.rootViewController = rootViewController
@@ -29,7 +33,7 @@ final public class VungleVideoMixAdapter: APSSPVideoMixAdAdapterInappBiddingProt
         videoMixDelegate = delegate
         switch videoMixAdType {
         case .Interstitial:
-            videoMixDelegate?.videoMixAdLoadFail(error: .noAdError, type: videoMixAdType, errorMessage: "Ad type not supported")
+            videoMixDelegate?.videoMixAdLoadFail(error: .nextMediation, type: videoMixAdType, errorMessage: "Ad type not supported")
         case .InterstitialVideo:
             interstitialVideoAdapter = VungleInterstitialVideoAdapter(placementDic: placementDic, rootViewController: rootViewController, info: [:])
             interstitialVideoAdapter?.connectDelegate(delegate: self)

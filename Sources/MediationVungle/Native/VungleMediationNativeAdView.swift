@@ -37,7 +37,7 @@ final class VungleMediationNativeAdView: UIView {
     
     private let placementId: String
     
-    private let rootViewController: UIViewController?
+    private weak var rootViewController: UIViewController?
     
     private var biddingData: String?
     

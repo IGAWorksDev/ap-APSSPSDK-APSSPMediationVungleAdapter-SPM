@@ -21,7 +21,7 @@ final class VungleMediationBannerView: UIView {
     
     private var bannerAd: VungleBanner?
     
-    private var rootviewController: UIViewController?
+    private weak var rootviewController: UIViewController?
     
     private var bannerType: APSSPBannerSize
     

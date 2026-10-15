@@ -13,7 +13,7 @@ import VungleAdsSDK
 
 final class VungleMediationInterstitialVideoAd: NSObject {
     
-    var delegate: APSSPInterstitialVideoAdapterDelegate?
+    weak var delegate: APSSPInterstitialVideoAdapterDelegate?
     
     private var interstitialAd: VungleInterstitial?
     

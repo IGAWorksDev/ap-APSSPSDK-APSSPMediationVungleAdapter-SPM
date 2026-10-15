@@ -10,13 +10,17 @@ import APSSPSDK
 
 final public class VungleInterstitialAdapter: APSSPInterstitialAdapterInappBiddingProtocol {
 
-    public var rootViewController: UIViewController?
+    public weak var rootViewController: UIViewController?
     
-    public var delegate: APSSPInterstitialAdapterDelegate?
+    public weak var delegate: APSSPInterstitialAdapterDelegate?
     
     private var interstitialAd: VungleMediationInterstitialAd?
 
     
+    deinit {
+        APLogger.debug("VungleInterstitialAdapter deinit")
+    }
+
     public init(placementDic: [String: String], rootViewController: UIViewController?, info: [String : Any?]) {
         let placementId = placementDic[APSSPPlacementKey.vunglePlacementId.rawValue] ?? ""
         interstitialAd = VungleMediationInterstitialAd(placementId: placementId)
