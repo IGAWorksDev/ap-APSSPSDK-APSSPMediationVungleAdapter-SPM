@@ -15,7 +15,7 @@ public final class VungleAdapterFactory: NSObject, APSSPAdapterFactory {
     public static var networkID: Int { 14 }
 
     public static var sdkVersion: String? { VungleInitializationAdapter().sdkVersion }
-    public static var adapterVersion: String? { "7.7.6.0" }
+    public static var adapterVersion: String? { "7.7.7.0" }
 
     public static func makeInitializationAdapter() -> AnyObject? {
         return VungleInitializationAdapter()
