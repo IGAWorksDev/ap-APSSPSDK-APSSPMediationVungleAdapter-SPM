@@ -31,6 +31,7 @@
 
 VungleAdsSDK `7.7.8` 대응
 어댑터 버전 `7.7.8.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -38,6 +39,7 @@ VungleAdsSDK `7.7.8` 대응
 
 VungleAdsSDK `7.7.7` 대응
 어댑터 버전 `7.7.7.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -45,6 +47,7 @@ VungleAdsSDK `7.7.7` 대응
 
 VungleAdsSDK `7.7.7` 대응 · SPM 개별 배포 시작
 어댑터 버전 `7.7.7.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -52,6 +55,7 @@ VungleAdsSDK `7.7.7` 대응 · SPM 개별 배포 시작
 
 VungleAdsSDK `7.7.6` 대응
 어댑터 버전 `7.7.6.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -59,6 +63,7 @@ VungleAdsSDK `7.7.6` 대응
 
 VungleAdsSDK `7.7.6` 대응
 어댑터 버전 `7.7.6.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -66,6 +71,7 @@ VungleAdsSDK `7.7.6` 대응
 
 VungleAdsSDK `7.7.5` 대응
 어댑터 버전 `7.7.5.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -73,6 +79,7 @@ VungleAdsSDK `7.7.5` 대응
 
 VungleAdsSDK `7.7.5` 대응
 어댑터 버전 `7.7.5.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -80,6 +87,7 @@ VungleAdsSDK `7.7.5` 대응
 
 VungleAdsSDK `7.7.4` 대응
 어댑터 버전 `7.7.4.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -87,6 +95,7 @@ VungleAdsSDK `7.7.4` 대응
 
 VungleAdsSDK `7.7.4` 대응
 어댑터 버전 `7.7.4.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -94,6 +103,7 @@ VungleAdsSDK `7.7.4` 대응
 
 VungleAdsSDK `7.7.3` 대응
 어댑터 버전 `7.7.3.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -101,6 +111,7 @@ VungleAdsSDK `7.7.3` 대응
 
 VungleAdsSDK `7.7.3` 대응
 어댑터 버전 `7.7.3.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -108,6 +119,7 @@ VungleAdsSDK `7.7.3` 대응
 
 VungleAdsSDK `7.7.2` 대응
 어댑터 버전 `7.7.2.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -115,6 +127,7 @@ VungleAdsSDK `7.7.2` 대응
 
 VungleAdsSDK `7.7.2` 대응
 어댑터 버전 `7.7.2.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -122,6 +135,7 @@ VungleAdsSDK `7.7.2` 대응
 
 VungleAdsSDK `7.7.1` 대응
 어댑터 버전 `7.7.1.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -129,6 +143,7 @@ VungleAdsSDK `7.7.1` 대응
 
 VungleAdsSDK `7.7.1` 대응
 어댑터 버전 `7.7.1.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
@@ -136,6 +151,7 @@ VungleAdsSDK `7.7.1` 대응
 
 VungleAdsSDK `7.7.0` 대응
 어댑터 버전 `7.7.0.0`
+APSSPSDK `3.4.0` 이상
 
 2026-10-15
 
@@ -143,6 +159,7 @@ VungleAdsSDK `7.7.0` 대응
 
 VungleAdsSDK `7.7.0` 대응
 어댑터 버전 `7.7.0.0`
+APSSPSDK `3.4.0` 이상
 
 2026-08-31
 
